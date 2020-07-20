@@ -12,6 +12,8 @@ class CarDealership
 	vector<Car> cars;
 
 public:
-	
+	void AddCar(Car t) {
+		cars.push_back(t);
+	}
 };
 
