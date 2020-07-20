@@ -1,3 +1,4 @@
+#pragma once
 #include<iostream>
 #include<string>
 #include<vector>
@@ -6,12 +7,11 @@
 
 
 using namespace std;
+class CarDealership
+{
+	vector<Car> cars;
 
-int main() {
-
+public:
 	
+};
 
-
-	system("pause");
-	return 0;
-}
