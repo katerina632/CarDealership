@@ -15,5 +15,13 @@ public:
 	void AddCar(Car t) {
 		cars.push_back(t);
 	}
+
+	void ShowAll() const {
+		int count = 1;
+		for (Car i : cars) {
+			cout << count << ") " << i;
+			count++;
+		}
+	}
 };
 
